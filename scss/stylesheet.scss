@@ -103,6 +103,7 @@ body {
         color: #1b1a17;
       }
       .collection--container__sub--title {
+        font-family: $fontDisplay;
         margin-top: 16px;
         font-weight: 400;
         font-size: 30px;
@@ -120,6 +121,7 @@ body {
         color: rgba(27, 26, 23, 0.82);
       }
       .collection--container__button {
+        font-family: $fontRoboto;
         margin-top: 64px;
         background: #444240;
         width: 205px;

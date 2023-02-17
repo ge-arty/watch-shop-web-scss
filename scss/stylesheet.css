@@ -101,6 +101,7 @@ body .collection .collection--container .collection--container__title {
   color: #1b1a17;
 }
 body .collection .collection--container .collection--container__sub--title {
+  font-family: "Playfair Display", normal;
   margin-top: 16px;
   font-weight: 400;
   font-size: 30px;
@@ -118,6 +119,7 @@ body .collection .collection--container .collection--container__text {
   color: rgba(27, 26, 23, 0.82);
 }
 body .collection .collection--container .collection--container__button {
+  font-family: "Roboto", normal;
   margin-top: 64px;
   background: #444240;
   width: 205px;
