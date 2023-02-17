@@ -83,7 +83,7 @@ body {
     height: 768px;
     background: url("/watch-shop-web-js-scss/images/collection-section.png")
       no-repeat;
-    background-position: top;
+    background-position: 55% 50%;
     padding-left: 185px;
     padding-right: 200px;
     font-family: $fontDisplay;
@@ -93,12 +93,12 @@ body {
     align-items: center;
     position: relative;
     .collection--container {
-      margin-top: 236px;
       overflow: auto;
       width: 343px;
       .collection--container__title {
+        font-family: $fontDisplay;
         font-weight: 400;
-        font-size: 30px;
+        font-size: 45px;
         line-height: 40px;
         color: #1b1a17;
       }
@@ -110,9 +110,12 @@ body {
         color: #1b1a17;
       }
       .collection--container__text {
+        font-family: $fontRoboto;
         margin-top: 39px;
         font-weight: 300;
         font-size: 14px;
+        width: 100%;
+        max-width: 258px;
         line-height: 21px;
         color: rgba(27, 26, 23, 0.82);
       }
@@ -186,8 +189,8 @@ body {
       border: 1px solid #8b8371;
       width: 50px;
       position: absolute;
-      left: 122px;
-      top: 370px;
+      left: 120px;
+      top: 255px;
     }
   }
 }
