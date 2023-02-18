@@ -194,4 +194,93 @@ body {
       top: 255px;
     }
   }
+  .popular {
+    width: 100%;
+    padding: 0 120px;
+    background-color: #ffffff;
+    padding-bottom: 86px;
+    .popular--title {
+      margin-top: 79px;
+      font-family: $fontDisplay;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 43px;
+      color: #1b1a17;
+      text-align: center;
+    }
+    .popular--viewmore {
+      font-family: $fontRoboto;
+      width: 104px;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      color: #444240;
+      padding-bottom: 11.5px;
+      border-bottom: 1px solid #c4c0b6;
+      float: right;
+    }
+    .popular--container {
+      margin-top: 25px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 40px 30px;
+      .popular--container__card--title {
+        font-family: $fontDisplay;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: rgba(27, 26, 23, 0.82);
+        margin-left: 10px;
+      }
+      .popular--container__card--price {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 55px;
+        margin-left: 10px;
+        p {
+          font-family: $fontPrata;
+          padding-top: 2px;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 16px;
+          color: rgba(27, 26, 23, 0.82);
+        }
+      }
+      img {
+        width: 313px;
+        height: 313px;
+        border-radius: 50%;
+        border: 1px solid transparent;
+        background: linear-gradient(to left, #e2d0c4 0%, #e2d0c400 100%);
+      }
+      .popular--container__card--viewmore {
+        margin-top: 19px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 140px;
+        margin-left: 10px;
+        p {
+          font-family: $fontPrata;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 21px;
+          color: #1b1a17;
+        }
+        div {
+          border: 1px solid #8b8371;
+          width: 30px;
+        }
+      }
+    }
+  }
+  .quality {
+    width: 100%;
+    padding: 0px 180px;
+    background: linear-gradient(to right, #f7f5ef 34.2%, #fdfdfb 65.8%);
+  }
 }
